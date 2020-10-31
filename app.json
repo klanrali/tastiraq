@@ -1,7 +1,7 @@
 {
-  "name": "Catuserbot",
-  "description": "Userbot created by https://t.me/mrconfused contact @catuserbot_support for support and Custom fork by @Jisan7509",
-  "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
+  "name": "iraqthon",
+  "description": "bot iqtthon thon for iraqi and me ch @iraqthon and ma dav @klanr",
+  "logo": "https://telegra.ph/file/1347718b23fd623f3f98c.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Jisan09/catuserbot/",
+  "repository": "https://github.com/klanrali/tastiraq/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -23,12 +23,12 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Give your name, like Jisan",
-      "value": ""
+      "description": "Give your name, like klanr",
+      "value": "@iqthon"
     },
     "LIVE_USERNAME": {
-      "description": "give your tg username, like @Jisan7509",
-      "value": ""
+      "description": "give your tg username, like @klanr",
+      "value": "@iqthon"
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
@@ -50,54 +50,9 @@
       "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
       "value": ""
     },
-    "HEROKU_API_KEY": {
-      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
-      "value": "",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "YOUR app name ",
-      "value": "",
-      "required": false
-    },
-    "DEFAULT_BIO": {
-      "description": "Your bio here note bio must have only 70characters or less.",
-      "value": "",
-      "required": false
-    },    
-    "MAX_FLOOD_IN_P_M_s": {
-      "description": "Maximum number of messages a person can send in pm before getting blocked. Value must be an integer. 6 by default.",
-      "value": "6",
-      "required": false
-    },
-    "OCR_SPACE_API_KEY": {
-      "description": "Required for OCR functionality. Get from https://ocr.space/ocrapi",
-      "value": "",
-      "required": false
-    },
-    "REM_BG_API_KEY": {
-      "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
-      "value": "",
-      "required": false
-    },
     "ALIVE_PIC": {
       "description": "the pic that to show in your alive message url.",
       "value": "",
-      "required": false
-    },
-    "AUTONAME": {
-      "description": "for .autoname command",
-      "value": "",
-      "required": false
-    },
-    "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
-      "value": "",
-      "required": false
-    },
-    "UB_BLACK_LIST_CHAT": {
-      "description": "set blacklist_chats where you do not want userbot features",
-      "value": "-1051754159",
       "required": false
     },
     "DOWNLOAD_PFP_URL_CLOCK": {
